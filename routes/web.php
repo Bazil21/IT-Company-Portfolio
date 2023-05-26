@@ -1,7 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Home;
+use App\Http\Controllers\Portfolio;
+use App\Http\Controllers\About;
+use App\Http\Controllers\features;
+use App\Http\Controllers\Services;
+use App\Http\Controllers\Team;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +18,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/',[Home::class, 'index']);
