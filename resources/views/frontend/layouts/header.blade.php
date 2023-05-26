@@ -7,14 +7,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- All CSS Links -->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <link rel="stylesheet" href="assets/css/odometer.min.css">
-        <link rel="stylesheet" href="assets/css/meanmenu.min.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/dist/output.css">
+        <link rel="stylesheet" href="{{ url('frontend/assets/css/swiper-bundle.min.css')}}">
+        <link rel="stylesheet" href="{{ url('frontend/assets/css/odometer.min.css')}}">
+        <link rel="stylesheet" href="{{ url('frontend/assets/css/meanmenu.min.css')}}">
+        <link rel="stylesheet" href="{{ url('frontend/assets/css/animate.min.css')}}">
+        <link rel="stylesheet" href="{{ url('frontend/assets/dist/output.css')}}">
 
         <title>Togy - Tailwind Technology Startup Template</title>
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+        <link rel="icon" type="image/png" href="{{ url('frontend/assets/img/favicon.png')}}">
 
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -24,7 +24,7 @@
     <body>
 
         <!-- Preloader -->
-        <div class="preloader-area text-center left-0 right-0 top-0 bottom-0 bg-white fixed z-9999">
+        {{-- <div class="preloader-area text-center left-0 right-0 top-0 bottom-0 bg-white fixed z-9999">
             <div class="preloader absolute -mt-20 left-0 right-0 top-1/2 m-auto -translate-y-2/4">
                 <div class="waviy font-bold text-50px">
                     <span class="text-black-color inline-block relative">T</span>
@@ -33,7 +33,7 @@
                     <span class="text-secondary-color inline-block relative">Y</span>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- End Preloader -->
 
         <!-- Navbar Area -->
