@@ -43,7 +43,7 @@
                     <div class="togy-responsive-menu">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="assets/img/logo.png" alt="logo">
+                                <img src="{{ url('frontend/assets/img/logo.png')}}" alt="logo">
                             </a>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                 <div class="container xl:max-w-full 3xl:max-w-[1700px]">
                     <nav class="navbar flex flex-wrap">
                         <a class="navbar-brand self-center" href="index.html">
-                            <img src="assets/img/logo.png" alt="logo">
+                            <img src="{{ url('frontend/assets/img/logo.png')}}" alt="logo">
                         </a>
                         <div class="flex self-center grow basis-auto">
                             <ul class="self-center flex flex-row ml-auto mr-auto">

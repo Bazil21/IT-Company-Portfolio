@@ -4,9 +4,9 @@
                 <div class="grid gap-25 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4">
                     <div class="single-footer-widget">
                         <a href="index.html" class="logo inline-block mb-20 lg:mb-25">
-                            <img src="assets/img/logo.png" alt="logo">
+                            <img src="{{ url('frontend/assets/img/logo.png') }}" alt="logo">
                         </a>
-                        <img src="assets/img/footer.png" alt="footer-image">
+                        <img src="{{ url('frontend/assets/img/footer.png') }}" alt="footer-image">
                     </div>
                     <div class="single-footer-widget md:pl-25">
                         <h3
@@ -92,7 +92,7 @@
                         <ul>
                             <li
                                 class="mb-15 md:mb-15 lg:mb-20 text-optional-color last:mb-0 relative text-13px md:text-15px lg:text-16px pl-25">
-                                <img src="assets/img/icon/phone-call.svg" class="absolute top-0 md:top-2 left-0"
+                                <img src="{{ url('frontend/assets/img/icon/phone-call.svg') }}" class="absolute top-0 md:top-2 left-0"
                                     alt="icon">
                                 <span class="font-medium text-black-color">Call Us:</span>
                                 <a href="tel:+(323)750-1234"
@@ -101,7 +101,7 @@
                             </li>
                             <li
                                 class="mb-15 md:mb-15 lg:mb-20 text-optional-color last:mb-0 relative text-13px md:text-15px lg:text-16px pl-25">
-                                <img src="assets/img/icon/location-pin.svg" class="absolute top-0 md:top-2 left-0"
+                                <img src="{{ url('frontend/assets/img/icon/location-pin.svg') }}" class="absolute top-0 md:top-2 left-0"
                                     alt="icon">
                                 <span class="font-medium text-black-color">Address:</span>
                                 <a href="#" target="_blank"
@@ -110,7 +110,7 @@
                             </li>
                             <li
                                 class="mb-15 md:mb-15 lg:mb-20 text-optional-color last:mb-0 relative text-13px md:text-15px lg:text-16px pl-25">
-                                <img src="assets/img/icon/email.svg" class="absolute top-0 md:top-2 left-0"
+                                <img src="{{ url('frontend/assets/img/icon/email.svg') }}" class="absolute top-0 md:top-2 left-0"
                                     alt="icon">
                                 <span class="font-medium text-black-color">Mail Us:</span>
                                 <a href="https://templates.envytheme.com/cdn-cgi/l/email-protection#8be3eee7e7e4cbffe4ecf2a5e8e4e6"
@@ -123,7 +123,7 @@
                             <li class="inline-block mr-5 last:mr-0">
                                 <a href="#" target="_blank"
                                     class="block w-35 rounded-full transition relative h-35 bg-[#4267B2] text-center hover:opacity-90">
-                                    <img src="assets/img/social/white-facebook.svg"
+                                    <img src="{{ url('frontend/assets/img/social/white-facebook.svg') }}"
                                         class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4"
                                         alt="facebook">
                                 </a>
@@ -131,7 +131,7 @@
                             <li class="inline-block mr-5 last:mr-0">
                                 <a href="#" target="_blank"
                                     class="block w-35 rounded-full transition relative h-35 bg-[#1DA1F2] text-center hover:opacity-90">
-                                    <img src="assets/img/social/white-twitter.svg"
+                                    <img src="{{ url('frontend/assets/img/social/white-twitter.svg') }}"
                                         class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4"
                                         alt="twitter">
                                 </a>
@@ -139,7 +139,7 @@
                             <li class="inline-block mr-5 last:mr-0">
                                 <a href="#" target="_blank"
                                     class="block w-35 rounded-full transition relative h-35 bg-[#2867B2] text-center hover:opacity-90">
-                                    <img src="assets/img/social/white-linkedin.svg"
+                                    <img src="{{ url('frontend/assets/img/social/white-linkedin.svg') }}"
                                         class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4"
                                         alt="linkedin">
                                 </a>
@@ -147,7 +147,7 @@
                             <li class="inline-block mr-5 last:mr-0">
                                 <a href="#" target="_blank"
                                     class="block w-35 rounded-full transition relative h-35 bg-instagram-gradient-color text-center hover:opacity-90">
-                                    <img src="assets/img/social/white-instagram.svg"
+                                    <img src="{{ url('frontend/assets/img/social/white-instagram.svg') }}"
                                         class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4"
                                         alt="instagram">
                                 </a>
@@ -156,7 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="right-[7%] bottom-[6%] absolute -z-1 hidden lg:inline"><img src="assets/img/shape/shape15.png"
+            <div class="right-[7%] bottom-[6%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape15.png') }}"
                     class="animate-custom-rotateme" alt="shape"></div>
         </footer>
         <!-- End Footer Area -->
@@ -212,7 +212,7 @@
 
         <!-- All JS Links -->
         <script data-cfasync="false"  src="{{ url('frontend../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js') }}"></script>
-        <script src="assets/js/jquery.min.js"></script>
+        <script src="{{ url('frontend/assets/js/jquery.min.js') }}"></script>
         <script src="{{ url('frontend/assets/js/swiper-bundle.min.js') }}"></script>
         <script src="{{ url('frontend/assets/js/appear.min.js') }}"></script>
         <script src="{{ url('frontend/assets/js/odometer.min.js') }}"></script>
