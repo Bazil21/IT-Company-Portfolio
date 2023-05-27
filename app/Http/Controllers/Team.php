@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class Team extends Controller
 {
-    //
+    public function index()
+    {
+        return view('frontend.team');
+    }
 }
