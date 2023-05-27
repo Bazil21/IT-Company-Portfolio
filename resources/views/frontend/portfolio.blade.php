@@ -1,4 +1,4 @@
-@include('frontend.layouts.main-content')
+@extends('frontend.layouts.main-content')
 
 @section('main-container')
     <!-- Page Title Area -->
