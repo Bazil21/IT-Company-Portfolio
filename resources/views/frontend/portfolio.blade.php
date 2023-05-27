@@ -11,9 +11,9 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque
                 venenatis, massa gravida donec orci.</p>
         </div>
-        <div class="left-0 top-25 absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape34.png"
+        <div class="left-0 top-25 absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape34.png')}}"
                 class="animate-custom-movebounce w-[100px]" alt="shape"></div>
-        <div class="right-0 bottom-20 absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape35.png"
+        <div class="right-0 bottom-20 absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape35.png')}}"
                 class="animate-custom-movebounce" alt="shape"></div>
     </div>
     <!-- End Page Title Area -->
@@ -64,7 +64,7 @@
                     <div class="grid gap-30 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio1.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio1.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -77,7 +77,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio2.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio2.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -92,7 +92,7 @@
                     <div class="grid mt-30 gap-30 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio3.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio3.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -105,7 +105,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio4.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio4.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -118,7 +118,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio5.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio5.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -131,7 +131,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio6.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio6.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -144,7 +144,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio7.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio7.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -157,7 +157,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio8.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio8.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -174,7 +174,7 @@
                     <div class="grid mt-30 gap-30 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio3.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio3.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -187,7 +187,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio4.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio4.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -200,7 +200,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio5.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio5.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -213,7 +213,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio6.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio6.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -226,7 +226,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio7.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio7.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -239,7 +239,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio8.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio8.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -256,7 +256,7 @@
                     <div class="grid mt-30 gap-30 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio4.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio4.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -269,7 +269,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio5.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio5.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -282,7 +282,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio6.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio6.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -295,7 +295,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio7.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio7.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -308,7 +308,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio8.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio8.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -325,7 +325,7 @@
                     <div class="grid mt-30 gap-30 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio5.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio5.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -338,7 +338,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio6.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio6.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -351,7 +351,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio7.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio7.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -368,7 +368,7 @@
                     <div class="grid gap-30 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio2.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio2.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -381,7 +381,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio1.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio1.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -396,7 +396,7 @@
                     <div class="grid mt-30 gap-30 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio3.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio3.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -409,7 +409,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio4.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio4.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -422,7 +422,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio5.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio5.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -439,7 +439,7 @@
                     <div class="grid mt-30 gap-30 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio6.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio6.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -452,7 +452,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio7.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio7.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -465,7 +465,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio8.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio8.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -478,7 +478,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio3.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio3.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -491,7 +491,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio4.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio4.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -504,7 +504,7 @@
                         </div>
                         <div class="relative">
                             <a href="portfolio-details.html" class="block">
-                                <img src="assets/img/portfolio/portfolio5.jpg"
+                                <img src="{{ url('frontend/assets/img/portfolio/portfolio5.jpg')}}"
                                     class="mb-25 rounded-sm md:rounded-md lg:rounded-lg" alt="portfolio-image">
                             </a>
                             <h3 class="font-bold text-18px md:text-20px lg:text-22px mb-10 lg:mb-12">
@@ -541,10 +541,10 @@
             </div>
         </div>
         <div class="top-[-35%] left-[2%] 2xl:top-[-12%] absolute -z-1 hidden xl:inline"><img
-                src="assets/img/shape/shape12.png" class="animate-custom-movebounce" alt="shape"></div>
-        <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape13.png"
+                src="{{ url('frontend/assets/img/shape/shape12.png')}}" class="animate-custom-movebounce" alt="shape"></div>
+        <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape13.png')}}"
                 class="animate-custom-moveleftbounce" alt="shape"></div>
-        <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="assets/img/shape/shape14.png"
+        <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape14.png')}}"
                 class="animate-custom-rotateme" alt="shape"></div>
     </div>
     <!-- End Support Area -->
