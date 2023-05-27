@@ -58,24 +58,26 @@
                         <div class="flex self-center grow basis-auto">
                             <ul class="self-center flex flex-row ml-auto mr-auto">
                                 <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="#" class="block text-black-color active font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Home</a>
+                                    <a href="{{url('/')}}" class="block text-black-color active font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Home</a>
+                                </li>
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="{{url('/portfolio')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Portfolio</a>
+                                </li>
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="{{url('/feature')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Feature</a>
+                                </li>
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="{{url('/service')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Services</a>
+                                </li>
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="{{url('/team')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Our Team</a>
+                                </li>
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="{{url('/about')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">About us</a>
                                 </li>
                                 
                                 <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Feature</a>
-                                </li>
-                                <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Services</a>
-                                </li>
-                                <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Our Team</a>
-                                </li>
-                                <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">About us</a>
-                                </li>
-                                
-                                <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Contact us</a>
+                                    <a href="{{url('/contact')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Contact us</a>
                                 </li>
                                 
                                
