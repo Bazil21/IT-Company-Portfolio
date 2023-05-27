@@ -61,8 +61,22 @@
                                     <a href="#" class="block text-black-color active font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Home</a>
                                 </li>
                                 
-                               
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Feature</a>
+                                </li>
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Services</a>
+                                </li>
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Our Team</a>
+                                </li>
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">About us</a>
+                                </li>
                                 
+                                <li class="mr-12 xl:mr-15 relative group">
+                                    <a href="#" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Contact us</a>
+                                </li>
                                 
                                
                             </ul>
