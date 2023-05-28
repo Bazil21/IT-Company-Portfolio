@@ -11,10 +11,12 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque
                 venenatis, massa gravida donec orci.</p>
         </div>
-        <div class="left-0 -bottom-90 absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape34.png')}}"
-                class="animate-custom-movebounce" alt="shape"></div>
-        <div class="right-0 bottom-100 absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape35.png')}}"
-                class="animate-custom-movebounce" alt="shape"></div>
+        <div class="left-0 -bottom-90 absolute -z-1 hidden xl:inline"><img
+                src="{{ url('frontend/assets/img/shape/shape34.png') }}" class="animate-custom-movebounce" alt="shape">
+        </div>
+        <div class="right-0 bottom-100 absolute -z-1 hidden xl:inline"><img
+                src="{{ url('frontend/assets/img/shape/shape35.png') }}" class="animate-custom-movebounce" alt="shape">
+        </div>
     </div>
     <!-- End Page Title Area -->
 
@@ -26,7 +28,7 @@
                     data-wow-delay=".1s">
                     <div
                         class="icon w-60 h-60 md:w-75 md:h-75 lg:w-90 lg:h-90 rounded-full bg-secondary-gradient-color text-center relative mb-20 md:mb-25 ml-auto mr-auto sm:ml-0 sm:mr-0">
-                        <img src="{{ url('frontend/assets/img/icon/shield-tick.svg')}}"
+                        <img src="{{ url('frontend/assets/img/icon/shield-tick.svg') }}"
                             class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="shield-tick">
                     </div>
                     <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">
@@ -40,7 +42,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis.</p>
                     <a href="services-details.html"
                         class="link-btn inline-block relative pr-20 font-medium text-13px md:text-14px lg:text-15px text-secondary-color ease-in duration-100 hover:text-secondary-color hover:tracking-wide">
-                        Learn More <img src="{{ url('frontend/assets/img/icon/secondary-arrow-right.svg')}}"
+                        Learn More <img src="{{ url('frontend/assets/img/icon/secondary-arrow-right.svg') }}"
                             class="absolute right-0 top-1 md:top-3" alt="arrow-right">
                     </a>
                 </div>
@@ -48,8 +50,8 @@
                     data-wow-delay=".3s">
                     <div
                         class="icon w-60 h-60 md:w-75 md:h-75 lg:w-90 lg:h-90 rounded-full bg-primary-gradient-color text-center relative mb-20 md:mb-25 ml-auto mr-auto sm:ml-0 sm:mr-0">
-                        <img src="{{ url('frontend/assets/img/icon/timer.svg')}}" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4"
-                            alt="timer">
+                        <img src="{{ url('frontend/assets/img/icon/timer.svg') }}"
+                            class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="timer">
                     </div>
                     <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">
                         <a href="services-details.html"
@@ -62,7 +64,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis.</p>
                     <a href="services-details.html"
                         class="link-btn inline-block relative pr-20 font-medium text-13px md:text-14px lg:text-15px text-secondary-color ease-in duration-100 hover:text-secondary-color hover:tracking-wide">
-                        Learn More <img src="{{ url('frontend/assets/img/icon/secondary-arrow-right.svg')}}"
+                        Learn More <img src="{{ url('frontend/assets/img/icon/secondary-arrow-right.svg') }}"
                             class="absolute right-0 top-1 md:top-3" alt="arrow-right">
                     </a>
                 </div>
@@ -70,8 +72,8 @@
                     data-wow-delay=".5s">
                     <div
                         class="icon w-60 h-60 md:w-75 md:h-75 lg:w-90 lg:h-90 rounded-full bg-green-gradient-color text-center relative mb-20 md:mb-25 ml-auto mr-auto sm:ml-0 sm:mr-0">
-                        <img src="{{ url('frontend/assets/img/icon/like.svg')}}" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4"
-                            alt="like">
+                        <img src="{{ url('frontend/assets/img/icon/like.svg') }}"
+                            class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="like">
                     </div>
                     <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">
                         <a href="services-details.html"
@@ -84,7 +86,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis.</p>
                     <a href="services-details.html"
                         class="link-btn inline-block relative pr-20 font-medium text-13px md:text-14px lg:text-15px text-secondary-color ease-in duration-100 hover:text-secondary-color hover:tracking-wide">
-                        Learn More <img src="{{ url('frontend/assets/img/icon/secondary-arrow-right.svg')}}"
+                        Learn More <img src="{{ url('frontend/assets/img/icon/secondary-arrow-right.svg') }}"
                             class="absolute right-0 top-1 md:top-3" alt="arrow-right">
                     </a>
                 </div>
@@ -92,7 +94,7 @@
                     data-wow-delay=".7s">
                     <div
                         class="icon w-60 h-60 md:w-75 md:h-75 lg:w-90 lg:h-90 rounded-full bg-yello-gradient-color text-center relative mb-20 md:mb-25 ml-auto mr-auto sm:ml-0 sm:mr-0">
-                        <img src="{{ url('frontend/assets/img/icon/shapes.svg')}}"
+                        <img src="{{ url('frontend/assets/img/icon/shapes.svg') }}"
                             class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="shapes">
                     </div>
                     <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">
@@ -106,7 +108,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis.</p>
                     <a href="services-details.html"
                         class="link-btn inline-block relative pr-20 font-medium text-13px md:text-14px lg:text-15px text-secondary-color ease-in duration-100 hover:text-secondary-color hover:tracking-wide">
-                        Learn More <img src="{{ url('frontend/assets/img/icon/secondary-arrow-right.svg')}}"
+                        Learn More <img src="{{ url('frontend/assets/img/icon/secondary-arrow-right.svg') }}"
                             class="absolute right-0 top-1 md:top-3" alt="arrow-right">
                     </a>
                 </div>
@@ -121,7 +123,7 @@
             <div class="grid gap-30 lg:gap-25 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
                 <div
                     class="overview-image md:pt-60 md:pl-100 lg:pt-30 lg:pl-30 xl:pt-60 xl:pl-100 relative z-1 circle-shape-bg before:w-377 md:before:h-388 lg:before:h-[330px] xl:before:h-388 before:absolute before:left-0 before:top-0 before:hidden before:-z-1 md:before:inline md:before:animate-none 2xl:before:animate-custom-slow-rotateme">
-                    <img src="{{ url('frontend/assets/img/overview/overview-img1.gif')}}"
+                    <img src="{{ url('frontend/assets/img/overview/overview-img1.gif') }}"
                         class="rounded-md wow animate__animated animate__fadeInUp" data-wow-delay=".1s"
                         alt="overview-image">
                 </div>
@@ -137,14 +139,15 @@
                 </div>
             </div>
         </div>
-        <div class="right-[2%] bottom-[47%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape4.png')}}"
-                class="animate-custom-movebounce" alt="shape"></div>
+        <div class="right-[2%] bottom-[47%] absolute -z-1 hidden lg:inline"><img
+                src="{{ url('frontend/assets/img/shape/shape4.png') }}" class="animate-custom-movebounce" alt="shape">
+        </div>
     </div>
     <!-- End Overview Area -->
 
     <!-- Overview Area -->
     <div class="overview-area pb-60 md:pb-80 lg:pb-100 relative z-1 bg-cover bg-no-repeat bg-center"
-        style="background-image: url({{ url('frontend/assets/img/shape/bg2.jpg);')}}">
+        style="background-image: url({{ url('frontend/assets/img/shape/bg2.jpg);') }}">
         <div class="container">
             <div class="grid gap-30 lg:gap-25 grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2">
                 <div
@@ -160,14 +163,15 @@
                 </div>
                 <div
                     class="overview-image md:pt-60 md:pr-100 lg:pt-30 lg:pr-30 xl:pt-60 xl:pr-100 relative z-1 circle-shape-bg2 before:w-377 md:before:h-388 lg:before:h-[329px] xl:before:h-388 before:absolute before:right-0 before:top-0 before:-z-1 before:hidden md:before:inline order-1 lg:order-2 md:before:animate-none 2xl:before:animate-custom-slow-rotateme">
-                    <img src="{{ url('frontend/assets/img/overview/overview-img2.gif')}}"
+                    <img src="{{ url('frontend/assets/img/overview/overview-img2.gif') }}"
                         class="rounded-md wow animate__animated animate__fadeInUp" data-wow-delay=".1s"
                         alt="overview-image">
                 </div>
             </div>
         </div>
-        <div class="left-0 bottom-[15%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape5.png')}}"
-                class="animate-custom-movebounce" alt="shape"></div>
+        <div class="left-0 bottom-[15%] absolute -z-1 hidden lg:inline"><img
+                src="{{ url('frontend/assets/img/shape/shape5.png') }}" class="animate-custom-movebounce"
+                alt="shape"></div>
     </div>
     <!-- End Overview Area -->
 
@@ -179,47 +183,47 @@
                     <ul class="relative">
                         <li
                             class="inline-block md:block w-[110px] h-[110px] bg-white top-1/2 border-2 border-transparent ease-in duration-300 hover:border-primary-color md:mt-[70px] md:-translate-y-2/4 relative md:absolute text-center shadow-custom-box-shadow2 rounded-full">
-                            <img src="{{ url('frontend/assets/img/integrate-apps/messenger.svg')}}"
+                            <img src="{{ url('frontend/assets/img/integrate-apps/messenger.svg') }}"
                                 class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="messenger">
                         </li>
                         <li
                             class="inline-block md:block w-[110px] h-[110px] bg-white border-2 border-transparent ease-in duration-300 hover:border-primary-color relative md:absolute text-center md:top-[120px] lg:left-[10px] xl:left-[80px] md:left-[80px] shadow-custom-box-shadow2 rounded-full">
-                            <img src="{{ url('frontend/assets/img/integrate-apps/gitlab.svg')}}"
+                            <img src="{{ url('frontend/assets/img/integrate-apps/gitlab.svg') }}"
                                 class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="gitlab">
                         </li>
                         <li
                             class="inline-block md:block w-[120px] h-[120px] bg-white border-2 border-transparent ease-in duration-300 hover:border-primary-color md:top-1/2 md:left-[230px] lg:left-[170px] xl:left-[230px] md:mt-[15px] md:-translate-y-2/4 relative md:absolute text-center shadow-custom-box-shadow2 rounded-full">
-                            <img src="{{ url('frontend/assets/img/integrate-apps/instagram.svg')}}"
+                            <img src="{{ url('frontend/assets/img/integrate-apps/instagram.svg') }}"
                                 class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                         </li>
                         <li
                             class="inline-block md:block w-[90px] h-[90px] bg-white border-2 border-transparent ease-in duration-300 hover:border-primary-color md:left-[290px] relative md:absolute md:right-0 md:bottom-[80px] text-center md:m-auto shadow-custom-box-shadow2 rounded-full">
-                            <img src="{{ url('frontend/assets/img/integrate-apps/twitter.svg')}}"
+                            <img src="{{ url('frontend/assets/img/integrate-apps/twitter.svg') }}"
                                 class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                         </li>
                         <li
                             class="inline-block md:block w-[90px] h-[90px] bg-white border-2 border-transparent ease-in duration-300 hover:border-primary-color md:right-0 md:bottom-[225px] relative md:absolute text-center shadow-custom-box-shadow2 rounded-full">
-                            <img src="{{ url('frontend/assets/img/integrate-apps/slack.svg')}}"
+                            <img src="{{ url('frontend/assets/img/integrate-apps/slack.svg') }}"
                                 class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="slack">
                         </li>
                         <li
                             class="inline-block md:block w-[90px] h-[90px] bg-white border-2 border-transparent ease-in duration-300 hover:border-primary-color relative md:absolute md:right-[100px] md:top-[50px] text-center shadow-custom-box-shadow2 rounded-full">
-                            <img src="{{ url('frontend/assets/img/integrate-apps/pinterest.svg')}}"
+                            <img src="{{ url('frontend/assets/img/integrate-apps/pinterest.svg') }}"
                                 class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="pinterest">
                         </li>
                         <li
                             class="inline-block md:block w-[145px] h-[145px] bg-white border-2 border-transparent ease-in duration-300 hover:border-primary-color lg:-left-55 xl:left-0 md:left-0 md:right-0 md:top-0 md:m-auto relative text-center shadow-custom-box-shadow2 rounded-full">
-                            <img src="{{ url('frontend/assets/img/integrate-apps/dropbox.svg')}}"
+                            <img src="{{ url('frontend/assets/img/integrate-apps/dropbox.svg') }}"
                                 class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="dropbox">
                         </li>
                         <li
                             class="inline-block md:block w-[110px] h-[110px] bg-white border-2 border-transparent ease-in duration-300 hover:border-primary-color md:right-0 md:top-1/2 md:-translate-y-2/4 md:left-[260px] md:-mt-[35px] lg:-mt-[70px] xl:-mt-[35px] md:m-auto relative md:absolute text-center shadow-custom-box-shadow2 rounded-full">
-                            <img src="{{ url('frontend/assets/img/integrate-apps/microsoft.svg')}}"
+                            <img src="{{ url('frontend/assets/img/integrate-apps/microsoft.svg') }}"
                                 class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="microsoft">
                         </li>
                         <li
                             class="inline-block md:block w-[155px] h-[155px] bg-white border-2 border-transparent ease-in duration-300 hover:border-primary-color relative md:left-[190px] text-center shadow-custom-box-shadow2 rounded-full md:mt-320">
-                            <img src="{{ url('frontend/assets/img/integrate-apps/netflix.svg"
+                            <img src="{{ url('frontend/assets/img/integrate-apps/netflix.svg') }}"
                                 class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="netflix">
                         </li>
                     </ul>
@@ -260,15 +264,18 @@
                         Togy Doc</a>
                 </div>
                 <div class="lg:-ml-100">
-                    <img src="{{ url('frontend/assets/img/automation.png" class="rounded-md wow animate__animated animate__fadeInUp"
-                        data-wow-delay=".1s" alt="overview-image">
+                    <img src="{{ url('frontend/assets/img/automation.png') }}"
+                        class="rounded-md wow animate__animated animate__fadeInUp" data-wow-delay=".1s"
+                        alt="overview-image">
                 </div>
             </div>
         </div>
-        <div class="right-[2%] bottom-[47%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape4.png"
-                class="animate-custom-movebounce" alt="shape"></div>
-        <div class="left-0 bottom-[15%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape5.png"
-                class="animate-custom-movebounce" alt="shape"></div>
+        <div class="right-[2%] bottom-[47%] absolute -z-1 hidden lg:inline"><img
+                src="{{ url('frontend/assets/img/shape/shape4.png') }}" class="animate-custom-movebounce"
+                alt="shape"></div>
+        <div class="left-0 bottom-[15%] absolute -z-1 hidden lg:inline"><img
+                src="{{ url('frontend/assets/img/shape/shape5.png') }}" class="animate-custom-movebounce"
+                alt="shape"></div>
     </div>
     <!-- End Overview Area -->
 
@@ -293,9 +300,11 @@
             </div>
         </div>
         <div class="left-[4%] top-[30%] 2xl:left-[10%] absolute z-1 hidden xl:inline"><img
-                src="{{ url('frontend/assets/img/shape/shape9.png" class="animate-custom-moveleftbounce" alt="shape"></div>
+                src="{{ url('frontend/assets/img/shape/shape9.png') }}" class="animate-custom-moveleftbounce"
+                alt="shape"></div>
         <div class="right-[1%] top-[20%] 2xl:right-[10%] absolute -z-1 hidden xl:inline"><img
-                src="{{ url('frontend/assets/img/shape/shape10.png" class="animate-custom-movebounce" alt="shape"></div>
+                src="{{ url('frontend/assets/img/shape/shape10.png') }}" class="animate-custom-movebounce"
+                alt="shape"></div>
     </div>
     <!-- End Free Trial Area -->
 
@@ -318,11 +327,14 @@
             </div>
         </div>
         <div class="top-[-35%] left-[2%] 2xl:top-[-12%] absolute -z-1 hidden xl:inline"><img
-                src="{{ url('frontend/assets/img/shape/shape12.png" class="animate-custom-movebounce" alt="shape"></div>
-        <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape13.png"
-                class="animate-custom-moveleftbounce" alt="shape"></div>
-        <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape14.png"
-                class="animate-custom-rotateme" alt="shape"></div>
+                src="{{ url('frontend/assets/img/shape/shape12.png') }}" class="animate-custom-movebounce"
+                alt="shape"></div>
+        <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img
+                src="{{ url('frontend/assets/img/shape/shape13.png') }}" class="animate-custom-moveleftbounce"
+                alt="shape"></div>
+        <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img
+                src="{{ url('frontend/assets/img/shape/shape14.png') }}" class="animate-custom-rotateme" alt="shape">
+        </div>
     </div>
     <!-- End Support Area -->
 @endsection
