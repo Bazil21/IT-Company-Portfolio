@@ -199,7 +199,7 @@
         <!-- End Customer Service Area -->
 
         <!-- Features Area -->
-        <div class="relative z-1 pt-60 md:pt-80 lg:pt-100 pb-60 md:pb-80 lg:pb-100 bg-[#fcfcfc] bg-cover bg-no-repeat bg-center" style="background-image: url({{ url('frontend/assets/img/shape/bg6.jpg);">
+        <div class="relative z-1 pt-60 md:pt-80 lg:pt-100 pb-60 md:pb-80 lg:pb-100 bg-[#fcfcfc] bg-cover bg-no-repeat bg-center" style="background-image: url({{ url('frontend/assets/img/shape/bg6.jpg);')}}">
             <div class="container">
                 <div class="grid gap-25 xl:gap-35 grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                     <div class="content xl:pr-100 self-center">
@@ -298,8 +298,8 @@
                     </form>
                 </div>
             </div>
-            <div class="left-[4%] top-[30%] 2xl:left-[10%] absolute z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape9.png" class="animate-custom-moveleftbounce" alt="shape"></div>
-            <div class="right-[1%] top-[20%] 2xl:right-[10%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape10.png" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="left-[4%] top-[30%] 2xl:left-[10%] absolute z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape9.png')}}" class="animate-custom-moveleftbounce" alt="shape"></div>
+            <div class="right-[1%] top-[20%] 2xl:right-[10%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape10.png')}}" class="animate-custom-movebounce" alt="shape"></div>
         </div>
         <!-- End Free Trial Area -->
 
@@ -316,9 +316,9 @@
                     </div>
                 </div>
             </div>
-            <div class="top-[-35%] left-[2%] 2xl:top-[-12%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape12.png" class="animate-custom-movebounce" alt="shape"></div>
-            <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape13.png" class="animate-custom-moveleftbounce" alt="shape"></div>
-            <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape14.png" class="animate-custom-rotateme" alt="shape"></div>
+            <div class="top-[-35%] left-[2%] 2xl:top-[-12%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape12.png')}}" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape13.png')}}" class="animate-custom-moveleftbounce" alt="shape"></div>
+            <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape14.png')}}" class="animate-custom-rotateme" alt="shape"></div>
         </div>
         <!-- End Support Area -->
 @endsection
