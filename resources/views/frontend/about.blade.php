@@ -11,20 +11,20 @@
                 </div>
                 <div class="grid gap-25 grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 mt-25 lg:mt-0">
                     <div class="text-center md:text-left">
-                        <img src="assets/img/banner/banner-img4.png" class="inline wow animate__animated animate__fadeInUp" data-wow-delay=".3s" alt="banner-img">
+                        <img src="{{ url('frontend/assets/img/banner/banner-img4.png')}}" class="inline wow animate__animated animate__fadeInUp" data-wow-delay=".3s" alt="banner-img">
                     </div>
                     <div class="text-center lg:mt-70">
-                        <img src="assets/img/banner/banner-img5.png" class="inline wow animate__animated animate__fadeInUp" data-wow-delay=".1s" alt="banner-img">
+                        <img src="{{ url('frontend/assets/img/banner/banner-img5.png')}}" class="inline wow animate__animated animate__fadeInUp" data-wow-delay=".1s" alt="banner-img">
                     </div>
                     <div class="text-center md:text-right">
-                        <img src="assets/img/banner/banner-img6.png" class="inline wow animate__animated animate__fadeInUp" data-wow-delay=".3s" alt="banner-img">
+                        <img src="{{ url('frontend/assets/img/banner/banner-img6.png')}}" class="inline wow animate__animated animate__fadeInUp" data-wow-delay=".3s" alt="banner-img">
                     </div>
                 </div>
             </div>
-            <div class="absolute -z-1 right-[2%] top-[30%] 3xl:right-[10%] hidden xl:inline"><img src="assets/img/shape/shape24.png" class="animate-custom-moveleftbounce" alt="shape"></div>
-            <div class="absolute -z-1 left-[4%] top-[14%] 3xl:left-[10%] hidden lg:inline"><img src="assets/img/shape/shape25.png" class="animate-custom-movebounce" alt="shape"></div>
-            <div class="absolute -z-1 right-[25%] bottom-[13%] 3xl:right-[29%] hidden lg:inline"><img src="assets/img/icon/tick.svg" class="animate-custom-movebounce" alt="shape"></div>
-            <div class="absolute -z-1 left-[20%] bottom-[14%] 3xl:left-[27%] hidden lg:inline"><img src="assets/img/shape/shape26.png" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="absolute -z-1 right-[2%] top-[30%] 3xl:right-[10%] hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape24.png')}}" class="animate-custom-moveleftbounce" alt="shape"></div>
+            <div class="absolute -z-1 left-[4%] top-[14%] 3xl:left-[10%] hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape25.png')}}" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="absolute -z-1 right-[25%] bottom-[13%] 3xl:right-[29%] hidden lg:inline"><img src="{{ url('frontend/assets/img/icon/tick.svg')}}" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="absolute -z-1 left-[20%] bottom-[14%] 3xl:left-[27%] hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape26.png')}}" class="animate-custom-movebounce" alt="shape"></div>
         </div>
         <!-- End Page Title Area -->
 
@@ -33,9 +33,9 @@
             <div class="container">
                 <div class="grid gap-25 grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
                     <div class="image text-center relative self-center xl:-mr-[75px] wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                        <img src="assets/img/about/about2.jpg" class="rounded-md" alt="about-image">
-                        <img src="assets/img/about/about3.jpg" class="rounded-md absolute left-0 top-0 opacity-0 invisible" alt="about-image">
-                        <img src="assets/img/about/about4.jpg" class="rounded-md absolute left-0 top-0 opacity-0 invisible" alt="about-image">
+                        <img src="{{ url('frontend/assets/img/about/about2.jpg')}}" class="rounded-md" alt="about-image">
+                        <img src="{{ url('frontend/assets/img/about/about3.jpg')}}" class="rounded-md absolute left-0 top-0 opacity-0 invisible" alt="about-image">
+                        <img src="{{ url('frontend/assets/img/about/about4.jpg')}}" class="rounded-md absolute left-0 top-0 opacity-0 invisible" alt="about-image">
                     </div>
                     <div class="content xl:pl-[100px] self-center">
                         <span class="block text-purple-color font-semibold text-13px md:text-15px mb-12 md:mb-15">About Us</span>
@@ -44,19 +44,19 @@
                         <ul class="mt-20 md:mt-25">
                             <li class="text-black-color b1 text-15px md:text-17px lg:text-17px xl:text-20px rounded-md font-bold bg-white shadow-custom-box-shadow4 relative mb-15 last:mb-0 pl-15 md:pl-25 pr-45 pt-20 md:pt-22 pb-20 md:pb-22 hover:text-white hover:bg-secondary-gradient-color">
                                 <div class="icon absolute right-10 md:right-20 top-1/2 rounded-full -translate-y-2/4 md:w-50 w-40 md:h-50 h-40 bg-secondary-gradient-color">
-                                    <img src="assets/img/icon/box.svg" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="box">
+                                    <img src="{{ url('frontend/assets/img/icon/box.svg')}}" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="box">
                                 </div>
                                 Brainstorm Ideas
                             </li>
                             <li class="text-black-color b2 text-15px md:text-17px lg:text-17px xl:text-20px rounded-md font-bold bg-white shadow-custom-box-shadow4 relative mb-15 last:mb-0 pl-15 md:pl-25 pr-45 pt-20 md:pt-22 pb-20 md:pb-22 hover:text-white hover:bg-primary-gradient-color">
                                 <div class="icon absolute right-10 md:right-20 top-1/2 rounded-full -translate-y-2/4 md:w-50 w-40 md:h-50 h-40 bg-primary-gradient-color">
-                                    <img src="assets/img/icon/cube.svg" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="box">
+                                    <img src="{{ url('frontend/assets/img/icon/cube.svg')}}" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="box">
                                 </div>
                                 Manage Projects
                             </li>
                             <li class="text-black-color b3 text-15px md:text-17px lg:text-17px xl:text-20px rounded-md font-bold bg-white shadow-custom-box-shadow4 relative mb-15 last:mb-0 pl-15 md:pl-25 pr-45 pt-20 md:pt-22 pb-20 md:pb-22 hover:text-white hover:bg-green-gradient-color">
                                 <div class="icon absolute right-10 md:right-20 top-1/2 rounded-full -translate-y-2/4 md:w-50 w-40 md:h-50 h-40 bg-green-gradient-color">
-                                    <img src="assets/img/icon/grid.svg" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="box">
+                                    <img src="{{ url('frontend/assets/img/icon/grid.svg')}}" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="box">
                                 </div>
                                 Organize Tasks
                             </li>
@@ -64,7 +64,7 @@
                     </div>
                 </div>
             </div>
-            <div class="absolute hidden xl:inline left-[9%] -top-30"><img src="assets/img/shape/shape12.png" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="absolute hidden xl:inline left-[9%] -top-30"><img src="{{ url('frontend/assets/img/shape/shape12.png')}}" class="animate-custom-movebounce" alt="shape"></div>
         </div>
         <!-- End Features Area -->
 
@@ -78,7 +78,7 @@
                 <div class="grid gap-25 md:gap-30 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2">
                     <div class="group text-center md:text-left pt-20 md:pt-30 lg:pt-40 pb-20 md:pb-30 lg:pb-40 pr-20 md:pr-30 lg:pr-40 pl-20 md:pl-30 lg:pl-40 xl:pl-[220px] bg-primary-gradient-color relative rounded-md wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                         <div class="icon w-[150px] h-[150px] rounded-full bg-white-light text-center mb-20 xl:mb-0 relative xl:absolute xl:left-40 xl:top-1/2 xl:-translate-y-2/4 ease-in duration-300 group-hover:bg-white ml-auto mr-auto md:ml-0 md:mr-0">
-                            <img src="assets/img/icon/ticket.svg" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="ticket">
+                            <img src="{{ url('frontend/assets/img/icon/ticket.svg')}}" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="ticket">
                         </div>
                         <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">
                             <a href="services-details.html" class="inline-block text-white">
@@ -87,12 +87,12 @@
                         </h3>
                         <p class="leading-7 md:leading-8 text-white mb-10 md:mb-15 text-13px md:text-15px lg:text-16px">Lorem ipsum dolor sit amet, consect etur adipiscing elit.</p>
                         <a href="services-details.html" class="link-btn inline-block relative pr-20 font-semibold text-13px md:text-14px lg:text-15px text-white ease-in duration-100 hover:tracking-wide">
-                            Learn More <img src="assets/img/icon/white-arrow-right.svg" class="absolute right-0 top-1 md:top-3" alt="arrow-right">
+                            Learn More <img src="{{ url('frontend/assets/img/icon/white-arrow-right.svg')}}" class="absolute right-0 top-1 md:top-3" alt="arrow-right">
                         </a>
                     </div>
                     <div class="group text-center md:text-left pt-20 md:pt-30 lg:pt-40 pb-20 md:pb-30 lg:pb-40 pr-20 md:pr-30 lg:pr-40 pl-20 md:pl-30 lg:pl-40 xl:pl-[220px] bg-secondary-gradient-color relative rounded-md wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                         <div class="icon w-[150px] h-[150px] rounded-full bg-white-light text-center mb-20 xl:mb-0 relative xl:absolute xl:left-40 xl:top-1/2 xl:-translate-y-2/4 ease-in duration-300 group-hover:bg-white ml-auto mr-auto md:ml-0 md:mr-0">
-                            <img src="assets/img/icon/workflow.svg" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="workflow">
+                            <img src="{{ url('frontend/assets/img/icon/workflow.svg')}}" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="workflow">
                         </div>
                         <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">
                             <a href="services-details.html" class="inline-block text-white">
@@ -101,12 +101,12 @@
                         </h3>
                         <p class="leading-7 md:leading-8 text-white mb-10 md:mb-15 text-13px md:text-15px lg:text-16px">Lorem ipsum dolor sit amet, consect etur adipiscing elit.</p>
                         <a href="services-details.html" class="link-btn inline-block relative pr-20 font-semibold text-13px md:text-14px lg:text-15px text-white ease-in duration-100 hover:tracking-wide">
-                            Learn More <img src="assets/img/icon/white-arrow-right.svg" class="absolute right-0 top-1 md:top-3" alt="arrow-right">
+                            Learn More <img src="{{ url('frontend/assets/img/icon/white-arrow-right.svg')}}" class="absolute right-0 top-1 md:top-3" alt="arrow-right">
                         </a>
                     </div>
                     <div class="group text-center md:text-left pt-20 md:pt-30 lg:pt-40 pb-20 md:pb-30 lg:pb-40 pr-20 md:pr-30 lg:pr-40 pl-20 md:pl-30 lg:pl-40 xl:pl-[220px] bg-green-gradient-color relative rounded-md wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                         <div class="icon w-[150px] h-[150px] rounded-full bg-white-light text-center mb-20 xl:mb-0 relative xl:absolute xl:left-40 xl:top-1/2 xl:-translate-y-2/4 ease-in duration-300 group-hover:bg-white ml-auto mr-auto md:ml-0 md:mr-0">
-                            <img src="assets/img/icon/callback.svg" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="callback">
+                            <img src="{{ url('frontend/assets/img/icon/callback.svg')}}" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="callback">
                         </div>
                         <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">
                             <a href="services-details.html" class="inline-block text-white">
@@ -115,12 +115,12 @@
                         </h3>
                         <p class="leading-7 md:leading-8 text-white mb-10 md:mb-15 text-13px md:text-15px lg:text-16px">Lorem ipsum dolor sit amet, consect etur adipiscing elit.</p>
                         <a href="services-details.html" class="link-btn inline-block relative pr-20 font-semibold text-13px md:text-14px lg:text-15px text-white ease-in duration-100 hover:tracking-wide">
-                            Learn More <img src="assets/img/icon/white-arrow-right.svg" class="absolute right-0 top-1 md:top-3" alt="arrow-right">
+                            Learn More <img src="{{ url('frontend/assets/img/icon/white-arrow-right.svg')}}" class="absolute right-0 top-1 md:top-3" alt="arrow-right">
                         </a>
                     </div>
                     <div class="group text-center md:text-left pt-20 md:pt-30 lg:pt-40 pb-20 md:pb-30 lg:pb-40 pr-20 md:pr-30 lg:pr-40 pl-20 md:pl-30 lg:pl-40 xl:pl-[220px] bg-yello-gradient-color relative rounded-md wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                         <div class="icon w-[150px] h-[150px] rounded-full bg-white-light text-center mb-20 xl:mb-0 relative xl:absolute xl:left-40 xl:top-1/2 xl:-translate-y-2/4 ease-in duration-300 group-hover:bg-white ml-auto mr-auto md:ml-0 md:mr-0">
-                            <img src="assets/img/icon/survey.svg" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="survey">
+                            <img src="{{ url('frontend/assets/img/icon/survey.svg')}}" class="absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="survey">
                         </div>
                         <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">
                             <a href="services-details.html" class="inline-block text-white">
@@ -129,7 +129,7 @@
                         </h3>
                         <p class="leading-7 md:leading-8 text-white mb-10 md:mb-15 text-13px md:text-15px lg:text-16px">Lorem ipsum dolor sit amet, consect etur adipiscing elit.</p>
                         <a href="services-details.html" class="link-btn inline-block relative pr-20 font-semibold text-13px md:text-14px lg:text-15px text-white ease-in duration-100 hover:tracking-wide">
-                            Learn More <img src="assets/img/icon/white-arrow-right.svg" class="absolute right-0 top-1 md:top-3" alt="arrow-right">
+                            Learn More <img src="{{ url('frontend/assets/img/icon/white-arrow-right.svg')}}" class="absolute right-0 top-1 md:top-3" alt="arrow-right">
                         </a>
                     </div>
                 </div>
@@ -137,17 +137,17 @@
                     <p class="leading-7 md:leading-8 text-optional-color text-13px md:text-15px lg:text-16px">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget gravida facilisis maecenas vitae. 
                         <a href="features.html" class="link-btn inline-block relative pr-20 font-medium text-13px md:text-14px lg:text-15px text-secondary-color ease-in duration-100 hover:text-primary-color">
-                        View All Features <img src="assets/img/icon/secondary-arrow-right.svg" class="absolute right-0 top-1 md:top-8" alt="arrow-right">
+                        View All Features <img src="{{ url('frontend/assets/img/icon/secondary-arrow-right.svg')}}" class="absolute right-0 top-1 md:top-8" alt="arrow-right">
                     </a></p>
                 </div>
             </div>
-            <div class="absolute hidden lg:inline left-[10%] bottom-0 z-1"><img src="assets/img/shape/shape21.png" class="animate-custom-movebounce" alt="shape"></div>
-            <div class="top-[15%] left-[3%] absolute -z-1 hidden lg:inline"><img src="assets/img/shape/shape3.png" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="absolute hidden lg:inline left-[10%] bottom-0 z-1"><img src="{{ url('frontend/assets/img/shape/shape21.png')}}" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="top-[15%] left-[3%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape3.png')}}" class="animate-custom-movebounce" alt="shape"></div>
         </div>
         <!-- End Why We Are Best Area -->
 
         <!-- Feedback Area -->
-        <div class="feedback-area relative z-2 pt-60 md:pt-80 lg:pt-100 pb-60 md:pb-80 lg:pb-100 bg-[#fcfcfc] bg-cover bg-no-repeat bg-center" style="background-image: url(assets/img/shape/bg6.jpg);">
+        <div class="feedback-area relative z-2 pt-60 md:pt-80 lg:pt-100 pb-60 md:pb-80 lg:pb-100 bg-[#fcfcfc] bg-cover bg-no-repeat bg-center" style="background-image: url({{ url('frontend/assets/img/shape/bg6.jpg')}}">
             <div class="container">
                 <div class="text-center md:text-left section-title mb-35 md:mb-40 lg:mb-50 relative">
                     <span class="block text-purple-color font-semibold text-13px md:text-15px mb-12 md:mb-15">Feedback</span>
@@ -170,10 +170,10 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="single-feedback-box mb-20 shadow-custom-box-shadow4 rounded-md md:rounded-xl bg-white mt-50 md:mt-70 pl-[20px] pr-[20px] pb-[20px] md:pl-[35px] md:pr-[35px] md:pb-[35px] lg:pl-[25px] lg:pr-[25px] lg:pb-[25px] xl:pl-[35px] xl:pr-[35px] xl:pb-[35px]">
-                            <img src="assets/img/icon/dropbox.svg" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="dropbox">
+                            <img src="{{ url('frontend/assets/img/icon/dropbox.svg')}}" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="dropbox">
                             <p class="text-[#111111] text-14px md:text-15px lg:text-16px leading-7 md:leading-8">“Planning, tracking and delivering your team’s best work has never been easier. We make it easiest for you through the software.”</p>
                             <div class="client-info flex mt-15 md:mt-20">
-                                <img src="assets/img/user/user1.jpg" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
+                                <img src="{{ url('frontend/assets/img/user/user1.jpg')}}" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
                                 <div class="title ml-15 md:ml-20 self-center">
                                     <h3 class="text-secondary-color text-16px md:text-17px lg:text-18px font-bold mb-5 md:mb-8">Adam Smith</h3>
                                     <span class="text-13px md:text-14px text-black-color font-medium opacity-95">CEO, Dropbox</span>
@@ -183,10 +183,10 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="single-feedback-box mb-20 shadow-custom-box-shadow4 rounded-md md:rounded-xl bg-white mt-50 md:mt-70 pl-[20px] pr-[20px] pb-[20px] md:pl-[35px] md:pr-[35px] md:pb-[35px] lg:pl-[25px] lg:pr-[25px] lg:pb-[25px] xl:pl-[35px] xl:pr-[35px] xl:pb-[35px]">
-                            <img src="assets/img/icon/google.svg" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="google">
+                            <img src="{{ url('frontend/assets/img/icon/google.svg')}}" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="google">
                             <p class="text-[#111111] text-14px md:text-15px lg:text-16px leading-7 md:leading-8">“Planning, tracking and delivering your team’s best work has never been easier. We make it easiest for you through the software.”</p>
                             <div class="client-info flex mt-20">
-                                <img src="assets/img/user/user2.jpg" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
+                                <img src="{{ url('frontend/assets/img/user/user2.jpg')}}" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
                                 <div class="title ml-15 md:ml-20 self-center">
                                     <h3 class="text-secondary-color text-16px md:text-17px lg:text-18px font-bold mb-5 md:mb-8">Alina Smith</h3>
                                     <span class="text-13px md:text-14px text-black-color font-medium opacity-95">CEO, Google</span>
@@ -196,10 +196,10 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="single-feedback-box mb-20 shadow-custom-box-shadow4 rounded-md md:rounded-xl bg-white mt-50 md:mt-70 pl-[20px] pr-[20px] pb-[20px] md:pl-[35px] md:pr-[35px] md:pb-[35px] lg:pl-[25px] lg:pr-[25px] lg:pb-[25px] xl:pl-[35px] xl:pr-[35px] xl:pb-[35px]">
-                            <img src="assets/img/icon/twitter.svg" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="twitter">
+                            <img src="{{ url('frontend/assets/img/icon/twitter.svg')}}" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="twitter">
                             <p class="text-[#111111] text-14px md:text-15px lg:text-16px leading-7 md:leading-8">“Planning, tracking and delivering your team’s best work has never been easier. We make it easiest for you through the software.”</p>
                             <div class="client-info flex mt-20">
-                                <img src="assets/img/user/user3.jpg" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
+                                <img src="{{ url('frontend/assets/img/user/user3.jpg')}}" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
                                 <div class="title ml-15 md:ml-20 self-center">
                                     <h3 class="text-secondary-color text-16px md:text-17px lg:text-18px font-bold mb-5 md:mb-8">James Andy</h3>
                                     <span class="text-13px md:text-14px text-black-color font-medium opacity-95">CEO, Twitter</span>
@@ -209,10 +209,10 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="single-feedback-box mb-20 shadow-custom-box-shadow4 rounded-md md:rounded-xl bg-white mt-50 md:mt-70 pl-[20px] pr-[20px] pb-[20px] md:pl-[35px] md:pr-[35px] md:pb-[35px] lg:pl-[25px] lg:pr-[25px] lg:pb-[25px] xl:pl-[35px] xl:pr-[35px] xl:pb-[35px]">
-                            <img src="assets/img/icon/facebook.svg" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="facebook">
+                            <img src="{{ url('frontend/assets/img/icon/facebook.svg')}}" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="facebook">
                             <p class="text-[#111111] text-14px md:text-15px lg:text-16px leading-7 md:leading-8">“Planning, tracking and delivering your team’s best work has never been easier. We make it easiest for you through the software.”</p>
                             <div class="client-info flex mt-20">
-                                <img src="assets/img/user/user4.jpg" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
+                                <img src="{{ url('frontend/assets/img/user/user4.jpg')}}" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
                                 <div class="title ml-15 md:ml-20 self-center">
                                     <h3 class="text-secondary-color text-16px md:text-17px lg:text-18px font-bold mb-5 md:mb-8">Sarah Taylor</h3>
                                     <span class="text-13px md:text-14px text-black-color font-medium opacity-95">CEO, Facebook</span>
@@ -222,10 +222,10 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="single-feedback-box mb-20 shadow-custom-box-shadow4 rounded-md md:rounded-xl bg-white mt-50 md:mt-70 pl-[20px] pr-[20px] pb-[20px] md:pl-[35px] md:pr-[35px] md:pb-[35px] lg:pl-[25px] lg:pr-[25px] lg:pb-[25px] xl:pl-[35px] xl:pr-[35px] xl:pb-[35px]">
-                            <img src="assets/img/icon/linkedin.svg" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="linkedin">
+                            <img src="{{ url('frontend/assets/img/icon/linkedin.svg')}}" class="-mb-30 md:-mb-45 ml-auto mr-auto relative -top-50 md:-top-70 w-100 md:w-auto" alt="linkedin">
                             <p class="text-[#111111] text-14px md:text-15px lg:text-16px leading-7 md:leading-8">“Planning, tracking and delivering your team’s best work has never been easier. We make it easiest for you through the software.”</p>
                             <div class="client-info flex mt-20">
-                                <img src="assets/img/user/user5.jpg" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
+                                <img src="{{ url('frontend/assets/img/user/user5.jpg')}}" alt="user" class="rounded-md w-65 md:w-75 h-65 md:h-75">
                                 <div class="title ml-15 md:ml-20 self-center">
                                     <h3 class="text-secondary-color text-16px md:text-17px lg:text-18px font-bold mb-5 md:mb-8">Amy Jones</h3>
                                     <span class="text-13px md:text-14px text-black-color font-medium opacity-95">CEO, Linkedin</span>
@@ -235,8 +235,8 @@
                     </div>
                 </div>
             </div>
-            <div class="absolute -z-1 hidden lg:inline right-90 -bottom-30"><img src="assets/img/shape/shape20.png" class="animate-custom-rotateme" alt="shape"></div>
-            <div class="top-[15%] left-[3%] absolute -z-1 hidden lg:inline"><img src="assets/img/shape/shape3.png" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="absolute -z-1 hidden lg:inline right-90 -bottom-30"><img src="{{ url('frontend/assets/img/shape/shape20.png')}}" class="animate-custom-rotateme" alt="shape"></div>
+            <div class="top-[15%] left-[3%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape3.png')}}" class="animate-custom-movebounce" alt="shape"></div>
         </div>
         <!-- End Feedback Area -->
 
@@ -248,17 +248,17 @@
                         <h2 class="font-black text-22px md:text-28px lg:text-35px xl:text-40px mb-12 text-black-color">Combine with SMS and Email In Every App</h2>
                         <ul class="mt-20 md:mt-30">
                             <li class="text-black-color mb-15 md:mb-20 pl-40 relative text-13px md:text-15px lg:text-20px font-bold last:mb-0">
-                                <img src="assets/img/icon/instagram.svg" class="absolute left-0 top-0" alt="instagram">
+                                <img src="{{ url('frontend/assets/img/icon/instagram.svg')}}" class="absolute left-0 top-0" alt="instagram">
                                 Instagram
                                 <p class="lg:text-16px md:text-15px text-13px font-normal leading-7 md:leading-8 text-optional-color mt-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque venenatis.</p>
                             </li>
                             <li class="text-black-color mb-15 md:mb-20 pl-40 relative text-13px md:text-15px lg:text-20px font-bold last:mb-0">
-                                <img src="assets/img/icon/messenger.svg" class="absolute left-0 top-0" alt="messenger">
+                                <img src="{{ url('frontend/assets/img/icon/messenger.svg')}}" class="absolute left-0 top-0" alt="messenger">
                                 Messenger
                                 <p class="lg:text-16px md:text-15px text-13px font-normal leading-7 md:leading-8 text-optional-color mt-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque venenatis.</p>
                             </li>
                             <li class="text-black-color mb-15 md:mb-20 pl-40 relative text-13px md:text-15px lg:text-20px font-bold last:mb-0">
-                                <img src="assets/img/icon/whatsapp.svg" class="absolute left-0 top-0" alt="whatsapp">
+                                <img src="{{ url('frontend/assets/img/icon/whatsapp.svg')}}" class="absolute left-0 top-0" alt="whatsapp">
                                 WhatsApp
                                 <p class="lg:text-16px md:text-15px text-13px font-normal leading-7 md:leading-8 text-optional-color mt-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque venenatis.</p>
                             </li>
@@ -266,7 +266,7 @@
                         <a href="pricing.html" class="inline-block font-semibold text-13px md:text-14px lg:text-15px mt-15 md:mt-25 rounded-sm text-white pt-17 pb-13 pl-35 pr-35 bg-secondary-gradient-color shadow-custom-box-shadow hover:shadow-secondary-btn ease-in duration-300">Try For Free</a>
                     </div>
                     <div class="image relative self-center wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
-                        <img src="assets/img/messenger.jpg" class="rounded-md shadow-custom-box-shadow2" alt="messenger">
+                        <img src="{{ url('frontend/assets/img/messenger.jpg')}}" class="rounded-md shadow-custom-box-shadow2" alt="messenger">
                     </div>
                 </div>
             </div>
@@ -274,12 +274,12 @@
         <!-- End Integrate Apps Area -->
 
         <!-- Working Process Area -->
-        <div class="relative z-1 pt-60 md:pt-80 lg:pt-100 pb-60 md:pb-80 lg:pb-100 bg-subscription-bg bg-cover bg-no-repeat bg-center before:absolute before:left-0 before:right-0 before:top-0 before:bottom-0 before:bg-[#0f1216] before:-z-1 before:opacity-80" style="background-image: url(assets/img/subscription-bg.jpg);">
+        <div class="relative z-1 pt-60 md:pt-80 lg:pt-100 pb-60 md:pb-80 lg:pb-100 bg-subscription-bg bg-cover bg-no-repeat bg-center before:absolute before:left-0 before:right-0 before:top-0 before:bottom-0 before:bg-[#0f1216] before:-z-1 before:opacity-80" style="background-image: url({{ url('frontend/assets/img/subscription-bg.jpg')}}">
             <div class="container">
                 <div class="text-center">
                     <h2 class="font-black text-22px md:text-30px lg:text-35px xl:text-40px mb-15 text-white">See Our Working Process In Details</h2>
                     <p class="lg:text-16px md:text-15px text-13px leading-7 md:leading-8 text-[#e1e1e1] lg:max-w-2xl lg:ml-auto lg:mr-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque venenatis, massa gravida donec orci.</p>
-                    <a href="https://www.youtube.com/watch?v=PWvPbGWVRrU" class="inline-block mt-20 lg:mt-30 popup-video"><img src="assets/img/play.svg" alt="play"></a>
+                    <a href="https://www.youtube.com/watch?v=PWvPbGWVRrU" class="inline-block mt-20 lg:mt-30 popup-video"><img src="{{ url('frontend/assets/img/play.svg')}}" alt="play"></a>
                 </div>
             </div>
         </div>
@@ -294,12 +294,12 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="single-feedback-box bg-gradient-color rounded-md p-20 md:p-25 lg:p-25 xl:p-45">
-                                        <img src="assets/img/icon/quote.svg" class="mb-10 md:mb-20" alt="quote">
+                                        <img src="{{ url('frontend/assets/img/icon/quote.svg')}}" class="mb-10 md:mb-20" alt="quote">
                                         <p class="text-white text-14px md:text-15px lg:text-18px leading-7 md:leading-8 font-semibold">The end goal was to create an agile, professional design engine. Togy was our top pick; it was the one solution that we felt could make this a reality.</p>
                                         <div class="lg:flex lg:justify-between mt-15 md:mt-18 lg:mt-25">
                                             <div class="client-info">
                                                 <div class="flex">
-                                                    <img src="assets/img/user/user1.jpg" alt="user" class="rounded-full w-65 md:w-75 h-65 md:h-75">
+                                                    <img src="{{ url('frontend/assets/img/user/user1.jpg')}}" alt="user" class="rounded-full w-65 md:w-75 h-65 md:h-75">
                                                     <div class="title ml-15 md:ml-20 self-center">
                                                         <h3 class="text-white text-16px md:text-17px lg:text-18px font-bold mb-6 md:mb-8">Adam Smith</h3>
                                                         <span class="text-13px md:text-14px text-white font-medium opacity-95">MD Of Digital Asset</span>
@@ -318,12 +318,12 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-feedback-box bg-secondary-gradient-color rounded-md p-20 md:p-25 lg:p-25 xl:p-45">
-                                        <img src="assets/img/icon/quote.svg" class="mb-10 md:mb-20" alt="quote">
+                                        <img src="{{ url('frontend/assets/img/icon/quote.svg')}}" class="mb-10 md:mb-20" alt="quote">
                                         <p class="text-white text-14px md:text-15px lg:text-18px leading-7 md:leading-8 font-semibold">The end goal was to create an agile, professional design engine. Togy was our top pick; it was the one solution that we felt could make this a reality.</p>
                                         <div class="lg:flex lg:justify-between mt-15 md:mt-18 lg:mt-25">
                                             <div class="client-info">
                                                 <div class="flex">
-                                                    <img src="assets/img/user/user2.jpg" alt="user" class="rounded-full w-65 md:w-75 h-65 md:h-75">
+                                                    <img src="{{ url('frontend/assets/img/user/user2.jpg')}}" alt="user" class="rounded-full w-65 md:w-75 h-65 md:h-75">
                                                     <div class="title ml-15 md:ml-20 self-center">
                                                         <h3 class="text-white text-16px md:text-17px lg:text-18px font-bold mb-6 md:mb-8">Alina David</h3>
                                                         <span class="text-13px md:text-14px text-white font-medium opacity-95">MD Of Digital Asset</span>
@@ -342,12 +342,12 @@
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="single-feedback-box bg-gradient-color rounded-md p-20 md:p-25 lg:p-25 xl:p-45">
-                                        <img src="assets/img/icon/quote.svg" class="mb-10 md:mb-20" alt="quote">
+                                        <img src="{{ url('frontend/assets/img/icon/quote.svg')}}" class="mb-10 md:mb-20" alt="quote">
                                         <p class="text-white text-14px md:text-15px lg:text-18px leading-7 md:leading-8 font-semibold">The end goal was to create an agile, professional design engine. Togy was our top pick; it was the one solution that we felt could make this a reality.</p>
                                         <div class="lg:flex lg:justify-between mt-15 md:mt-18 lg:mt-25">
                                             <div class="client-info">
                                                 <div class="flex">
-                                                    <img src="assets/img/user/user3.jpg" alt="user" class="rounded-full w-65 md:w-75 h-65 md:h-75">
+                                                    <img src="{{ url('frontend/assets/img/user/user3.jpg')}}" alt="user" class="rounded-full w-65 md:w-75 h-65 md:h-75">
                                                     <div class="title ml-15 md:ml-20 self-center">
                                                         <h3 class="text-white text-16px md:text-17px lg:text-18px font-bold mb-6 md:mb-8">Jason Roy</h3>
                                                         <span class="text-13px md:text-14px text-white font-medium opacity-95">MD Of Digital Asset</span>
@@ -385,8 +385,8 @@
                     </div>
                 </div>
             </div>
-            <div class="right-[35%] bottom-[5%] xl:right-[41%] 2xl:bottom-[10%] absolute z-1 hidden lg:inline"><img src="assets/img/shape/shape8.png" class="animate-custom-movebounce" alt="shape"></div>
-            <div class="right-[10%] top-[-15%] absolute -z-1 hidden lg:inline"><img src="assets/img/shape/shape4.png" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="right-[35%] bottom-[5%] xl:right-[41%] 2xl:bottom-[10%] absolute z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape8.png')}}" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="right-[10%] top-[-15%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape4.png')}}" class="animate-custom-movebounce" alt="shape"></div>
         </div>
         <!-- End Feedback Area -->
 
@@ -402,8 +402,8 @@
                     </form>
                 </div>
             </div>
-            <div class="left-[4%] top-[30%] 2xl:left-[10%] absolute z-1 hidden xl:inline"><img src="assets/img/shape/shape9.png" class="animate-custom-moveleftbounce" alt="shape"></div>
-            <div class="right-[1%] top-[20%] 2xl:right-[10%] absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape10.png" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="left-[4%] top-[30%] 2xl:left-[10%] absolute z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape9.png')}}" class="animate-custom-moveleftbounce" alt="shape"></div>
+            <div class="right-[1%] top-[20%] 2xl:right-[10%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape10.png')}}" class="animate-custom-movebounce" alt="shape"></div>
         </div>
         <!-- End Free Trial Area -->
 
@@ -420,9 +420,9 @@
                     </div>
                 </div>
             </div>
-            <div class="top-[-35%] left-[2%] 2xl:top-[-12%] absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape12.png" class="animate-custom-movebounce" alt="shape"></div>
-            <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape13.png" class="animate-custom-moveleftbounce" alt="shape"></div>
-            <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="assets/img/shape/shape14.png" class="animate-custom-rotateme" alt="shape"></div>
+            <div class="top-[-35%] left-[2%] 2xl:top-[-12%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape12.png')}}" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape13.png')}}" class="animate-custom-moveleftbounce" alt="shape"></div>
+            <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape14.png')}}" class="animate-custom-rotateme" alt="shape"></div>
         </div>
         <!-- End Support Area -->
 @endsection
