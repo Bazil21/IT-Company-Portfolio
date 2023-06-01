@@ -8,8 +8,8 @@
                 <h1 class="font-black text-25px md:text-35px lg:text-40px xl:text-48px 2xl:text-54px text-black-color mb-8">Team <span class="text-primary-color">Members</span></h1>
                 <p class="lg:text-16px md:text-15px text-13px lg:max-w-2xl lg:mx-auto leading-7 md:leading-8 text-optional-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque venenatis, massa gravida donec orci.</p>
             </div>
-            <div class="left-0 bottom-40 absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape34.png" class="animate-custom-movebounce" alt="shape"></div>
-            <div class="right-0 -bottom-20 absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape35.png" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="left-0 bottom-40 absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape34.png')}}" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="right-0 -bottom-20 absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape35.png')}}" class="animate-custom-movebounce" alt="shape"></div>
         </div>
         <!-- End Page Title Area -->
 
@@ -18,7 +18,7 @@
             <div class="container">
                 <div class="grid gap-25 grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
                     <div class="single-team-member rounded-md md:rounded-lg bg-white shadow-custom-box-shadow2">
-                        <img src="assets/img/team/team1.jpg" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
+                        <img src="{{ url('frontend/assets/img/team/team1.jpg')}}" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
                         <div class="p-20 md:p-30 relative">
                             <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-5 lg:mb-12">Adam Smith</h3>
                             <span class="text-13px md:text-14px text-primary-color font-medium">CEO & Founder</span>
@@ -31,22 +31,22 @@
                                 <ul class="absolute right-0 bottom-45 md:bottom-55 ease-in duration-300">
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#4267B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-facebook.svg" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
+                                            <img src="{{ url('frontend/assets/img/social/white-facebook.svg')}}" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#1DA1F2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-twitter.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
+                                            <img src="{{ url('frontend/assets/img/social/white-twitter.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#2867B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-linkedin.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
+                                            <img src="{{ url('frontend/assets/img/social/white-linkedin.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-instagram-gradient-color text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-instagram.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
+                                            <img src="{{ url('frontend/assets/img/social/white-instagram.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                                         </a>
                                     </li>
                                 </ul>
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="single-team-member rounded-md md:rounded-lg bg-white shadow-custom-box-shadow2">
-                        <img src="assets/img/team/team2.jpg" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
+                        <img src="{{ url('frontend/assets/img/team/team2.jpg')}}" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
                         <div class="p-20 md:p-30 relative">
                             <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">Victor James</h3>
                             <span class="text-13px md:text-14px text-primary-color font-medium">CTO</span>
@@ -67,22 +67,22 @@
                                 <ul class="absolute right-0 bottom-45 md:bottom-55 ease-in duration-300">
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#4267B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-facebook.svg" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
+                                            <img src="{{ url('frontend/assets/img/social/white-facebook.svg')}}" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#1DA1F2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-twitter.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
+                                            <img src="{{ url('frontend/assets/img/social/white-twitter.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#2867B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-linkedin.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
+                                            <img src="{{ url('frontend/assets/img/social/white-linkedin.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-instagram-gradient-color text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-instagram.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
+                                            <img src="{{ url('frontend/assets/img/social/white-instagram.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                                         </a>
                                     </li>
                                 </ul>
@@ -90,7 +90,7 @@
                         </div>
                     </div>
                     <div class="single-team-member rounded-md md:rounded-lg bg-white shadow-custom-box-shadow2">
-                        <img src="assets/img/team/team3.jpg" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
+                        <img src="{{ url('frontend/assets/img/team/team3.jpg')}}" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
                         <div class="p-20 md:p-30 relative">
                             <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">Bratly Wines</h3>
                             <span class="text-13px md:text-14px text-primary-color font-medium">Web Designer</span>
@@ -103,22 +103,22 @@
                                 <ul class="absolute right-0 bottom-45 md:bottom-55 ease-in duration-300">
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#4267B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-facebook.svg" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
+                                            <img src="{{ url('frontend/assets/img/social/white-facebook.svg')}}" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#1DA1F2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-twitter.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
+                                            <img src="{{ url('frontend/assets/img/social/white-twitter.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#2867B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-linkedin.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
+                                            <img src="{{ url('frontend/assets/img/social/white-linkedin.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-instagram-gradient-color text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-instagram.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
+                                            <img src="{{ url('frontend/assets/img/social/white-instagram.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                                         </a>
                                     </li>
                                 </ul>
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                     <div class="single-team-member rounded-md md:rounded-lg bg-white shadow-custom-box-shadow2">
-                        <img src="assets/img/team/team4.jpg" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
+                        <img src="{{ url('frontend/assets/img/team/team4.jpg')}}" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
                         <div class="p-20 md:p-30 relative">
                             <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">John Watson</h3>
                             <span class="text-13px md:text-14px text-primary-color font-medium">Web Developer</span>
@@ -139,22 +139,22 @@
                                 <ul class="absolute right-0 bottom-45 md:bottom-55 ease-in duration-300">
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#4267B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-facebook.svg" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
+                                            <img src="{{ url('frontend/assets/img/social/white-facebook.svg')}}" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#1DA1F2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-twitter.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
+                                            <img src="{{ url('frontend/assets/img/social/white-twitter.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#2867B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-linkedin.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
+                                            <img src="{{ url('frontend/assets/img/social/white-linkedin.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-instagram-gradient-color text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-instagram.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
+                                            <img src="{{ url('frontend/assets/img/social/white-instagram.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                                         </a>
                                     </li>
                                 </ul>
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                     <div class="single-team-member rounded-md md:rounded-lg bg-white shadow-custom-box-shadow2">
-                        <img src="assets/img/team/team5.jpg" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
+                        <img src="{{ url('frontend/assets/img/team/team5.jpg')}}" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
                         <div class="p-20 md:p-30 relative">
                             <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">Teddy Will</h3>
                             <span class="text-13px md:text-14px text-primary-color font-medium">Marketing Coordinator</span>
@@ -175,22 +175,22 @@
                                 <ul class="absolute right-0 bottom-45 md:bottom-55 ease-in duration-300">
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#4267B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-facebook.svg" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
+                                            <img src="{{ url('frontend/assets/img/social/white-facebook.svg')}}" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#1DA1F2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-twitter.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
+                                            <img src="{{ url('frontend/assets/img/social/white-twitter.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#2867B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-linkedin.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
+                                            <img src="{{ url('frontend/assets/img/social/white-linkedin.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-instagram-gradient-color text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-instagram.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
+                                            <img src="{{ url('frontend/assets/img/social/white-instagram.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                                         </a>
                                     </li>
                                 </ul>
@@ -198,7 +198,7 @@
                         </div>
                     </div>
                     <div class="single-team-member rounded-md md:rounded-lg bg-white shadow-custom-box-shadow2">
-                        <img src="assets/img/team/team6.jpg" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
+                        <img src="{{ url('frontend/assets/img/team/team6.jpg')}}" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
                         <div class="p-20 md:p-30 relative">
                             <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">Guy Hawkins</h3>
                             <span class="text-13px md:text-14px text-primary-color font-medium">Web Designer</span>
@@ -211,22 +211,22 @@
                                 <ul class="absolute right-0 bottom-45 md:bottom-55 ease-in duration-300">
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#4267B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-facebook.svg" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
+                                            <img src="{{ url('frontend/assets/img/social/white-facebook.svg')}}" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#1DA1F2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-twitter.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
+                                            <img src="{{ url('frontend/assets/img/social/white-twitter.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#2867B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-linkedin.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
+                                            <img src="{{ url('frontend/assets/img/social/white-linkedin.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-instagram-gradient-color text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-instagram.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
+                                            <img src="{{ url('frontend/assets/img/social/white-instagram.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                                         </a>
                                     </li>
                                 </ul>
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                     <div class="single-team-member rounded-md md:rounded-lg bg-white shadow-custom-box-shadow2">
-                        <img src="assets/img/team/team7.jpg" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
+                        <img src="{{ url('frontend/assets/img/team/team7.jpg')}}" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
                         <div class="p-20 md:p-30 relative">
                             <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">Esther Howard</h3>
                             <span class="text-13px md:text-14px text-primary-color font-medium">Web Developer</span>
@@ -247,22 +247,22 @@
                                 <ul class="absolute right-0 bottom-45 md:bottom-55 ease-in duration-300">
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#4267B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-facebook.svg" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
+                                            <img src="{{ url('frontend/assets/img/social/white-facebook.svg')}}" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#1DA1F2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-twitter.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
+                                            <img src="{{ url('frontend/assets/img/social/white-twitter.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#2867B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-linkedin.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
+                                            <img src="{{ url('frontend/assets/img/social/white-linkedin.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-instagram-gradient-color text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-instagram.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
+                                            <img src="{{ url('frontend/assets/img/social/white-instagram.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                                         </a>
                                     </li>
                                 </ul>
@@ -270,7 +270,7 @@
                         </div>
                     </div>
                     <div class="single-team-member rounded-md md:rounded-lg bg-white shadow-custom-box-shadow2">
-                        <img src="assets/img/team/team8.jpg" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
+                        <img src="{{ url('frontend/assets/img/team/team8.jpg')}}" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
                         <div class="p-20 md:p-30 relative">
                             <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">Jane Cooper</h3>
                             <span class="text-13px md:text-14px text-primary-color font-medium">Support Expert</span>
@@ -283,22 +283,22 @@
                                 <ul class="absolute right-0 bottom-45 md:bottom-55 ease-in duration-300">
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#4267B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-facebook.svg" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
+                                            <img src="{{ url('frontend/assets/img/social/white-facebook.svg')}}" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#1DA1F2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-twitter.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
+                                            <img src="{{ url('frontend/assets/img/social/white-twitter.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#2867B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-linkedin.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
+                                            <img src="{{ url('frontend/assets/img/social/white-linkedin.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-instagram-gradient-color text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-instagram.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
+                                            <img src="{{ url('frontend/assets/img/social/white-instagram.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                                         </a>
                                     </li>
                                 </ul>
@@ -306,7 +306,7 @@
                         </div>
                     </div>
                     <div class="single-team-member rounded-md md:rounded-lg bg-white shadow-custom-box-shadow2">
-                        <img src="assets/img/team/team9.jpg" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
+                        <img src="{{ url('frontend/assets/img/team/team9.jpg')}}" class="rounded-tl-lg rounded-tr-lg md:rounded-tl-lg md:rounded-tr-lg" alt="team">
                         <div class="p-20 md:p-30 relative">
                             <h3 class="font-bold text-18px md:text-20px lg:text-24px mb-10 lg:mb-12">Robert Fox</h3>
                             <span class="text-13px md:text-14px text-primary-color font-medium">Manager</span>
@@ -319,22 +319,22 @@
                                 <ul class="absolute right-0 bottom-45 md:bottom-55 ease-in duration-300">
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#4267B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-facebook.svg" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
+                                            <img src="{{ url('frontend/assets/img/social/white-facebook.svg')}}" class="w-8 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="facebook">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#1DA1F2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-twitter.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
+                                            <img src="{{ url('frontend/assets/img/social/white-twitter.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="twitter">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-[#2867B2] text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-linkedin.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
+                                            <img src="{{ url('frontend/assets/img/social/white-linkedin.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="linkedin">
                                         </a>
                                     </li>
                                     <li class="inline-block mt-5 last:mt-0">
                                         <a href="#" target="_blank" class="block w-40 md:w-50 rounded-full transition relative h-40 md:h-50 bg-instagram-gradient-color text-center hover:opacity-90">
-                                            <img src="assets/img/social/white-instagram.svg" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
+                                            <img src="{{ url('frontend/assets/img/social/white-instagram.svg')}}" class="w-15 absolute left-0 right-0 top-1/2 m-auto -translate-y-2/4" alt="instagram">
                                         </a>
                                     </li>
                                 </ul>
@@ -359,9 +359,9 @@
                     </div>
                 </div>
             </div>
-            <div class="top-[-35%] left-[2%] 2xl:top-[-12%] absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape12.png" class="animate-custom-movebounce" alt="shape"></div>
-            <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img src="assets/img/shape/shape13.png" class="animate-custom-moveleftbounce" alt="shape"></div>
-            <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="assets/img/shape/shape14.png" class="animate-custom-rotateme" alt="shape"></div>
+            <div class="top-[-35%] left-[2%] 2xl:top-[-12%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape12.png')}}" class="animate-custom-movebounce" alt="shape"></div>
+            <div class="right-[10%] bottom-[-30.4%] absolute -z-1 hidden xl:inline"><img src="{{ url('frontend/assets/img/shape/shape13.png')}}" class="animate-custom-moveleftbounce" alt="shape"></div>
+            <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="{{ url('frontend/assets/img/shape/shape14.png')}}" class="animate-custom-rotateme" alt="shape"></div>
         </div>
         <!-- End Support Area -->
 @endsection
