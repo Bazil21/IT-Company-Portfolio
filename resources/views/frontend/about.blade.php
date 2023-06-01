@@ -1,4 +1,6 @@
+@extends('frontend.layouts.main-content')
 
+@section('main-container')
 
         <!-- Page Title Area -->
         <div class="relative z-1 pt-60 md:pt-80 lg:pt-100 pb-60 md:pb-80 lg:pb-100">
@@ -423,3 +425,4 @@
             <div class="top-[20%] left-[52%] absolute -z-1 hidden lg:inline"><img src="assets/img/shape/shape14.png" class="animate-custom-rotateme" alt="shape"></div>
         </div>
         <!-- End Support Area -->
+@endsection
