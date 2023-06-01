@@ -58,34 +58,32 @@
                         <div class="flex self-center grow basis-auto">
                             <ul class="self-center flex flex-row ml-auto mr-auto">
                                 <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="{{url('/')}}" class="block text-black-color active font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Home</a>
+                                    <a href="{{url('/')}}" class="block text-black-color font-semibold text-16px ease-in duration-300 relative pr-15 pt-30 pb-30 @if(Request::is('/')) active @endif">Home</a>
                                 </li>
                                 <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="{{url('/portfolio')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Portfolio</a>
+                                    <a href="{{url('/portfolio')}}" class="block text-black-color font-semibold text-16px ease-in duration-300 hover:text-primary-color pt-30 pb-30 @if(Request::is('portfolio')) active @endif">Portfolio</a>
                                 </li>
                                 <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="{{url('/feature')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Feature</a>
+                                    <a href="{{url('/feature')}}" class="block text-black-color font-semibold text-16px ease-in duration-300 relative pr-15 pt-30 pb-30 @if(Request::is('feature')) active @endif">Feature</a>
                                 </li>
                                 <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="{{url('/service')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Services</a>
+                                    <a href="{{url('/service')}}" class="block text-black-color font-semibold text-16px ease-in duration-300 relative pr-15 pt-30 pb-30 @if(Request::is('service')) active @endif">Services</a>
                                 </li>
                                 <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="{{url('/team')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Our Team</a>
+                                    <a href="{{url('/team')}}" class="block text-black-color font-semibold text-16px ease-in duration-300 relative pr-15 pt-30 pb-30 @if(Request::is('team')) active @endif">Our Team</a>
                                 </li>
                                 <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="{{url('/about')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">About us</a>
+                                    <a href="{{url('/about')}}" class="block text-black-color font-semibold text-16px ease-in duration-300 relative pr-15 pt-30 pb-30 @if(Request::is('about')) active @endif">About us</a>
                                 </li>
-                                
                                 <li class="mr-12 xl:mr-15 relative group">
-                                    <a href="{{url('/contact')}}" class="block text-black-color  font-semibold text-16px ease-in duration-300 relative pr-15  pt-30 pb-30">Contact us</a>
+                                    <a href="{{url('/contact')}}" class="block text-black-color font-semibold text-16px ease-in duration-300 relative pr-15 pt-30 pb-30 @if(Request::is('contact')) active @endif">Contact us</a>
                                 </li>
-                                
-                               
                             </ul>
                             <div class="self-center">
                                 <a href="#" class="inline-block font-semibold text-13px md:text-14px lg:text-15px rounded-sm text-white pt-17 pb-13 pl-35 pr-35 bg-secondary-gradient-color shadow-custom-box-shadow hover:shadow-secondary-btn ease-in duration-300">Get Started</a>
                             </div>
                         </div>
+                        
                     </nav>
                 </div>
             </div>
